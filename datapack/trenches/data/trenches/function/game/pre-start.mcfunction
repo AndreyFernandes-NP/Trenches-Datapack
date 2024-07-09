@@ -1,0 +1,2 @@
+execute unless entity @a[team=] run function game:start
+execute if entity @a[team=] run tellraw @a ["",{"text":"[Trenches]","color":"dark_green"},{"text":": ","color":"gray"},{"translate":"trenches.hub.not_ready_first","color":"gray"}," ",{"translate":"trenches.hub.not_ready_all","bold":true,"color":"gray"}," ",{"translate":"trenches.hub.not_ready_mid","color":"gray"}," ",{"translate":"trenches.hub.not_ready_team","bold":true,"color":"gold"}," ",{"translate":"trenches.hub.not_ready_last","color":"gray"}]
