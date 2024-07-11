@@ -1,0 +1,17 @@
+{
+  "enchantment.level.0": "0",
+  "trenches.resource.message_if_youre_seeing_this_please_use_the_designed_resourcepack": "Carregado!",
+
+  "trenches.hub.not_ready_first": "É necessário que",
+  "trenches.hub.not_ready_all": "todos",
+  "trenches.hub.not_ready_mid": "os jogadores estejam num",
+  "trenches.hub.not_ready_team": "time",
+  "trenches.hub.not_ready_last": "para iniciar!",
+
+  "trenches.mid.domination": "O meio foi dominado pelo time",
+
+  "trenches.generic.team": "time",
+  "trenches.generic.player": "jogador",
+  "trenches.generic.blu": "Azul",
+  "trenches.generic.red": "Vermelho"
+}
