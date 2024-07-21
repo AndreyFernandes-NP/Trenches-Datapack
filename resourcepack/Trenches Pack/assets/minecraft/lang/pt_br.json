@@ -2,16 +2,81 @@
   "enchantment.level.0": "0",
   "trenches.resource.message_if_youre_seeing_this_please_use_the_designed_resourcepack": "Carregado!",
 
-  "trenches.hub.not_ready_first": "É necessário que",
-  "trenches.hub.not_ready_all": "todos",
-  "trenches.hub.not_ready_mid": "os jogadores estejam num",
-  "trenches.hub.not_ready_team": "time",
-  "trenches.hub.not_ready_last": "para iniciar!",
+  "trenches.class.selector": "Seletor de Classes",
+  "trenches.class.selection.next": "Próximo >",
+  "trenches.class.selection.locked": "[Trancado]",
+  "trenches.class.selection.back": "< Voltar",
+  "trenches.class.selection.description": "Descrição",
 
-  "trenches.mid.domination": "O meio foi dominado pelo time",
+  "trenches.classes.name.soldier": "Soldado",
+  "trenches.classes.name.scout": "Atirador",
 
-  "trenches.generic.team": "time",
-  "trenches.generic.player": "jogador",
-  "trenches.generic.blu": "Azul",
-  "trenches.generic.red": "Vermelho"
+  "trenches.classes.name.warrior": "Guerreiro",
+  "trenches.classes.name.builder": "Construtor",
+  "trenches.classes.name.shooter": "Franco-Atirador",
+
+  "trenches.classes.kp.name.bomber": "Suicida",
+  "trenches.classes.kp.name.assassin": "Assassino",
+
+  "trenches.classes.lore.soldier.line1": "Custo: [%s]",
+  "trenches.classes.lore.soldier.line2": "",
+  "trenches.classes.lore.soldier.line3": "Simples, mas eficiente.",
+  "trenches.classes.lore.soldier.line4": "Um pau pra toda obra.",
+  
+  "trenches.classes.lore.scout.line1": "Custo: [%s]",
+  "trenches.classes.lore.scout.line2": "",
+  "trenches.classes.lore.scout.line3": "Um ótimo apoio, mas bem limitado.",
+
+  "trenches.classes.lore.warrior.line1": "§l§fCusto: [%s]",
+  "trenches.classes.lore.warrior.line2": "",
+  "trenches.classes.lore.warrior.line3": "Uma ofensiva bem dominante,",
+  "trenches.classes.lore.warrior.line4": "mas vulnerável à longas-distâncias",
+
+  "trenches.classes.lore.builder.line1": "§l§fCusto: [%s]",
+  "trenches.classes.lore.builder.line2": "",
+  "trenches.classes.lore.builder.line3": "Bom para defender bases, ou quebrá-las",
+
+  "trenches.classes.lore.shooter.line1": "§l§fCusto: [%s]",
+  "trenches.classes.lore.shooter.line2": "",
+  "trenches.classes.lore.shooter.line3": "Tendo uma ótima mira,",
+  "trenches.classes.lore.shooter.line4": "essa classe é quase imparável",
+
+  "trenches.classes.description.soldier": "É uma classe bem simples de combate, a mais barata dentre todas e que serve seu propósito de ser um simples soldado. Feito para uma ofensiva rápida e direta, sem precisar gastar muito.",
+  "trenches.classes.description.scout": "Feita tanto para o combate, quanto para o suporte, esse classe possui um potencial bem grande em comparação ao %s. Dependendo da sua mira, você pode abrir uma grande vantagem pro seu time, ou morrer e se arrepender de ter gastando mais caro.",
+
+  "trenches.classes.description.warrior": "De certa forma não é tão diferente de seu predecessor, o %s, mas pela sua quantidade de vida extra e uma espada capaz de dar um ótimo dano, é bem formidável no corpo-a-corpo. Porém, saiba que o %s é o seu counter exclusivo, e perseguí-lo provavelmente resultará em morte.",
+  "trenches.classes.description.builder": "É uma ótima classe para defender sua base no começo do jogo, com suas ferramentas de pedra e blocos novos, você é capaz de levantar muros em questão de pouco tempo. Além disso, o %s tem efeito de Pressa permanente, possibilitando quebrar blocos rapidamente para defender sua base, ou quebrar a defesa da base inimiga.",
+  "trenches.classes.description.shooter": "É a classe mais dominante do começo do jogo, apesar de não ter um poder ofensivo de invasão tão grande quanto o %s, para combates ela é excelente, desde que você tenha uma boa mira, quando seu inimigo acabar se aproximando bastante, ele estará, se não quase, morto.",
+
+  "trenches.item.lore.soldier_sword": "Uma espada de pedra...",
+  "trenches.item.lore.scout_bow": "Um arco mais pesado que o usual",
+
+  "trenches.item.lore.warrior_sword": "Uma espada de pedra lascada...",
+  "trenches.item.lore.builder_sword": "É danificada, não bate bem...",
+  "trenches.item.lore.shooter_bow": "Um arco bastante decente",
+
+  "trenches.generic.team.name.blu": "§l§1Azul",
+  "trenches.generic.team.name.red": "§l§4Vermelho",
+  "trenches.generic.item.name.pacific_pickaxe": "Picareta Pacífica",
+  "trenches.generic.item.name.pacific_axe": "Machado Pacífico",
+  "trenches.generic.item.name.pacific_shovel": "Pá Pacífica",
+  "trenches.generic.item.lore.pacific": "Não causa dano.",
+
+  "trenches.generic.chat_messages.insufficient_points": "Você não tem pontos o suficiente para comprar §l[%s§l]",
+
+  "trenches.announcement.match.captured_point": "O meio foi dominado pelo time %s",
+
+  "trenches.dev.custom_classes_book_name": "Sistema de Classes para Burrinhos",
+  "trenches.dev.custom_classes_page1": "Dá pra tornar essa área mais eficiente colocando as ferramentas que se repetem em um único baú...\n\nMas, como essa eficiência não é através de código, tem 0 impacto na perfor-\nmance do jogo.",
+  "trenches.dev.custom_classes_page2": "Por conta disso, ter os itens separados e carregados dessa forma permite uma maior customização e escalabilidade, possibilitando até que a mesma classe sendo usada por outro time tenha algumas diferenças sem tocar no código-fonte.",
+  "trenches.dev.custom_classes_page3": "O LOAD de armaduras não é Hardcoded, desde que uma armor_stand tenha as tags:\n\n[\"(classe)_armor\",\n\"(time)\"]\n\nUm player que for comprar a (classe) receberá a devida armadura do seu time.",
+  "trenches.dev.custom_classes_page4": "Quando se trata de itens, é um pouco mais complicado.\n\nPara que funcione, use uma caixa de shulker (cinza claro), e dê summon numa armor_stand bem no meio do bloco.",
+  "trenches.dev.custom_classes_page5": "A armor_stand deve ter as seguintes tags:\n\n[\"(classe)_items\",\n\"(time)\"]\n\nO sistema vai então pegar o X/Y/Z da armor_stand e usar pra dar load no inventário da shulker_box.",
+  "trenches.dev.custom_classes_page6": "A pnúltima coisa que você deve fazer adiante é infelizmente tocar no código. Estude um pouco sobre como funciona a UI do mapa, e em seguida é só inserir um botão pra comprar sua classe. Saiba que tudo funciona com base em macros de função, então pesquise!!",
+  "trenches.dev.custom_classes_page7": "Por fim, a última coisa que você precisa fazer é criar efeitos pra sua classe, eles são aplicados automaticamente mas precisam estar pré-escritos antes!! Pra fazer isso, dê uma olhada no comando dessa página, passe o mouse.",
+  "trenches.dev.custom_classes_page8": "Esse comando serve pra te mostrar todos os efeitos registrados em todas as classes do jogo. Quando você adicionar a sua, simplesmente coloque o nome dela logo após o \"class_effects\" pra ver os efeitos exclusivos dela.",
+  "trenches.dev.custom_classes_page9": "Agora, como adicionar um efeito? O comando da página mostra isso, mas não se assuste! Os parâmetros são simples e auto-explicativos, simplesmente preencha-os e dê enter. Caso queira adicionar mais, repita o processo.",
+  "trenches.dev.custom_classes_page10": "Depois disso tudo, você está livre pra tentar explorar e criar sua própria classe. Não fique triste se estiver dando erro, continue até conseguir! Analise o código da datapack e veja os exemplos práticos das classes que já existem.",
+  "trenches.dev.custom_classes_page11": "Mas, antes de tudo, lembre-se de fazer backups!!\n\nAgora, boa sorte em sua jornada de modificar o mapa, você vai mesmo precisar.",
+  "trenches.dev.custom_classes_page12": ""
 }
