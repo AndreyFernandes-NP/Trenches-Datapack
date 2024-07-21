@@ -1,3 +1,3 @@
 #>Restart
-scoreboard players set #Game phase -2
+scoreboard players set #Game_Phase phase -1
 gamemode adventure @a

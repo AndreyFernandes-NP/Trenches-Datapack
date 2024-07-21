@@ -8,9 +8,8 @@ execute if score .items ui matches 0 run scoreboard players set .page_change ui 
 
 ## Carregar a página que o player tá agora
 scoreboard players add @s ui.page 0
-execute if score @s ui.page matches 0 run function trenches:ui/page/menu_teste/start
-execute if score @s ui.page matches 1 run function trenches:ui/page/outro_teste/start
-execute if score @s ui.page matches 2 run function trenches:ui/page/maisum_teste/start
+execute if score @s ui.page matches 0 run function trenches:ui/page/class_1/start
+execute if score @s ui.page matches 1 run function trenches:ui/page/class_2/start
 # Pra adicionar nova página, copia o comando, coloca "matches n", número da página e muda a função, tipo: trenches:ui/page/novapag/start
 
 ## Prevenir check duplo

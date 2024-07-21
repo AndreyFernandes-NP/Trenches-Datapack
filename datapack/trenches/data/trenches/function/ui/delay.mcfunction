@@ -1,0 +1,1 @@
+scoreboard players set @p ui.delay 0
