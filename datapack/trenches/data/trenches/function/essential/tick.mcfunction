@@ -1,10 +1,10 @@
 #> Feedback do Meio
-execute unless block 201 1 66 blue_wool unless block 201 1 66 red_wool unless score #Mid time_d matches 0 run scoreboard players set #Mid time_d 0
+execute unless block 201 1 66 blue_wool unless block 201 1 66 red_wool unless score #Mid time_d matches 0 run function trenches:game/mid/neut_dom
 execute if block 201 1 66 red_wool unless score #Mid time_d matches 1 run function trenches:game/mid/red_dom
 execute if block 201 1 66 blue_wool unless score #Mid time_d matches 2 run function trenches:game/mid/blu_dom
 
 #> Player no Spawn
-execute as @a[scores={ui.delay=0}] unless data entity @s Inventory[{components:{"minecraft:custom_data":{ui:1b}}}] run give @s compass[custom_name='{"bold":true,"color":"aqua","italic":false,"text":"Seletor de Classe"}',custom_data={ui:1b},enchantment_glint_override=true]
+execute as @a[scores={ui.delay=0}] unless data entity @s Inventory[{components:{"minecraft:custom_data":{ui:1b}}}] run give @s compass[custom_name='{"bold":true,"color":"aqua","italic":false,"translate":"trenches.class.selector"}',custom_data={ui:1b},enchantment_glint_override=true]
 kill @e[type=item,nbt={Item:{components:{"minecraft:custom_data":{ui:1b}}}}]
 
 #> Prevenir Drops
