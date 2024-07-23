@@ -63,8 +63,12 @@
   "trenches.generic.item.lore.pacific": "Não causa dano.",
 
   "trenches.generic.chat_messages.insufficient_points": "Você não tem pontos o suficiente para comprar §l[%s§l]",
+  "trenches.generic.chat_messages.not_ready": "§lNão foi possível iniciar o jogo pois §6§ltodos§r§l os jogadores precisam estar em um time!",
 
+  "trenches.announcement.match.start": "Lutem!",
   "trenches.announcement.match.captured_point": "O meio foi dominado pelo time %s",
+
+  "trenches.announcement.match.gamestate.early": "Toquem as trombetas! Novas §6§lclasses§r§7 foram desbloqueadas, é aqui que o jogo inicia de verdade.",
 
   "trenches.dev.custom_classes_book_name": "Sistema de Classes para Burrinhos",
   "trenches.dev.custom_classes_page1": "Dá pra tornar essa área mais eficiente colocando as ferramentas que se repetem em um único baú...\n\nMas, como essa eficiência não é através de código, tem 0 impacto na perfor-\nmance do jogo.",
