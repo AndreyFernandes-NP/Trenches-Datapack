@@ -4,8 +4,9 @@ title @a title {"translate":"trenches.announcement.match.start","color":"red","b
 
 #> Reconfiguração dos Objetivos
 scoreboard players set #Game_Phase phase 0
-scoreboard players set @a timer_respawn 20
+scoreboard players set #Respawn value 20
 scoreboard players set @a pts 70
+scoreboard players set @a pts_bonus 0
 scoreboard players set #Points value 1
 
 ## Criação do KP
@@ -30,3 +31,7 @@ execute as @a run function trenches:game/technical/arrange_ids {"ftype_id":0}
 #> Tocar Timers necessários
 function trenches:game/timers/phases
 schedule function trenches:game/timers/pts_hub 20t
+schedule function trenches:game/timers/respawn 20t
+
+#> Retroceder opções de Debug
+scoreboard players set .debug_Points value 0

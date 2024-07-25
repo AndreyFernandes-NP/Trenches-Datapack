@@ -6,5 +6,7 @@ data modify storage macro input_id append value {"plr_id":0}
 execute store result storage macro input_id[].plr_id int 1 run scoreboard players get @s U_ID
 
 $scoreboard players set #functionType value $(ftype_id)
+
 execute if score #functionType value matches 0 run function trenches:game/technical/pts_storage with storage macro input_id[-1]
 execute if score #functionType value matches 1 run function trenches:game/technical/get_pts with storage macro input_id[-1]
+execute if score #functionType value matches 2 run function trenches:game/technical/do_respawn with storage macro input_id[-1]
