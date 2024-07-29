@@ -32,6 +32,7 @@ execute as @a run function trenches:game/technical/arrange_ids {"ftype_id":0}
 function trenches:game/timers/phases
 schedule function trenches:game/timers/pts_hub 20t
 schedule function trenches:game/timers/respawn 20t
+schedule function trenches:game/timers/mine_particles 20t
 
 #> Retroceder opções de Debug
 scoreboard players set .debug_Points value 0

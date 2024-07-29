@@ -11,6 +11,8 @@ item replace entity @s container.11 with warped_fungus_on_a_stick[custom_name='{
 item replace entity @s container.15 with warped_fungus_on_a_stick[custom_name='{"bold":true,"color":"yellow","translate":"trenches.class.selection.description"}',hide_additional_tooltip={},custom_model_data=4,custom_data={ui:{null:1b}}]
 #isso vai criar um item específico com a tag que queremos no slot escolhido, saiba que os slots do baú vão de 0-26
 
+execute unless score #Game_Phase phase matches ..0 run item replace entity @s container.13 with warped_fungus_on_a_stick[custom_name='{"bold":true,"color":"dark_red","translate":"trenches.class.selection.kp.name1"}',hide_additional_tooltip={},custom_model_data=5,custom_data={ui:{null:1b}}]
+execute unless score #Game_Phase phase matches ..0 run item modify entity @s container.13 trenches:menu/kp_name
+
 execute unless score #Game_Phase phase matches ..0 run item replace entity @s container.26 with warped_fungus_on_a_stick[custom_name='{"bold":true,"color":"green","translate":"trenches.class.selection.next"}',hide_additional_tooltip={},custom_model_data=1,custom_data={ui:{null:1b}}]
 execute unless score #Game_Phase phase matches 1.. run item replace entity @s container.26 with warped_fungus_on_a_stick[custom_name='{"bold":true,"color":"gray","translate":"trenches.class.selection.locked"}',hide_additional_tooltip={},custom_model_data=3,custom_data={ui:{null:1b}}]
-#item replace entity @s container.18 with warped_fungus_on_a_stick[custom_name='{"bold":true,"color":"red","translate":"trenches.class.selection.back"}',custom_model_data=2,custom_data={ui:{null:1b}}]

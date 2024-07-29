@@ -1,0 +1,1 @@
+scoreboard players set @s right_click 0
