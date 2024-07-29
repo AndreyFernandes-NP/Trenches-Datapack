@@ -8,6 +8,12 @@
   "trenches.class.selection.back": "< Voltar",
   "trenches.class.selection.description": "Descrição",
 
+  "trenches.class.selection.kp.name1": "Sangue",
+  "trenches.class.selection.kp.name2": "Morte",
+  "trenches.class.selection.kp.name3": "Almas",
+  "trenches.class.selection.kp.name4": "Medo",
+  "trenches.class.selection.kp.name5": "#####",
+
   "trenches.classes.name.soldier": "Soldado",
   "trenches.classes.name.scout": "Atirador",
 
@@ -41,12 +47,24 @@
   "trenches.classes.lore.shooter.line3": "Tendo uma ótima mira,",
   "trenches.classes.lore.shooter.line4": "essa classe é quase imparável",
 
+  "trenches.classes.kp.lore.assassin.line1": "§l§fCusto: §l§4[%s]",
+  "trenches.classes.kp.lore.assassin.line2": "",
+  "trenches.classes.kp.lore.assassin.line3": "Rápido e mortal,",
+  "trenches.classes.kp.lore.assassin.line4": "mas com uma péssima defesa",
+
+  "trenches.classes.kp.lore.bomber.line1": "§l§fCusto: §l§4[%s]",
+  "trenches.classes.kp.lore.bomber.line2": "",
+  "trenches.classes.kp.lore.bomber.line3": "Kaboom~",
+
   "trenches.classes.description.soldier": "É uma classe bem simples de combate, a mais barata dentre todas e que serve seu propósito de ser um simples soldado. Feito para uma ofensiva rápida e direta, sem precisar gastar muito.",
   "trenches.classes.description.scout": "Feita tanto para o combate, quanto para o suporte, esse classe possui um potencial bem grande em comparação ao %s. Dependendo da sua mira, você pode abrir uma grande vantagem pro seu time, ou morrer e se arrepender de ter gastando mais caro.",
 
   "trenches.classes.description.warrior": "De certa forma não é tão diferente de seu predecessor, o %s, mas pela sua quantidade de vida extra e uma espada capaz de dar um ótimo dano, é bem formidável no corpo-a-corpo. Porém, saiba que o %s é o seu counter exclusivo, e perseguí-lo provavelmente resultará em morte.",
   "trenches.classes.description.builder": "É uma ótima classe para defender sua base no começo do jogo, com suas ferramentas de pedra e blocos novos, você é capaz de levantar muros em questão de pouco tempo. Além disso, o %s tem efeito de Pressa permanente, possibilitando quebrar blocos rapidamente para defender sua base, ou quebrar a defesa da base inimiga.",
   "trenches.classes.description.shooter": "É a classe mais dominante do começo do jogo, apesar de não ter um poder ofensivo de invasão tão grande quanto o %s, para combates ela é excelente, desde que você tenha uma boa mira, quando seu inimigo acabar se aproximando bastante, ele estará, se não quase, morto.",
+
+  "trenches.classes.kp.description.assassin": "Bastante ágil e poderoso, ele possui a capacidade de se teleportar com suas pérolas para ser o flanco de seu time, mas saiba que sua vida é bem menor em relação as outras classes.",
+  "trenches.classes.kp.description.bomber": "Ótimo para alvos únicos, ou para criar uma abertura na defesa inimiga. Você só tem uma chance.",
 
   "trenches.item.lore.soldier_sword": "Uma espada de pedra...",
   "trenches.item.lore.scout_bow": "Um arco mais pesado que o usual",
@@ -55,6 +73,23 @@
   "trenches.item.lore.builder_sword": "É danificada, não bate bem...",
   "trenches.item.lore.shooter_bow": "Um arco bastante decente",
 
+  "trenches.item.name.assassin_sword": "Tramontina",
+  "trenches.item.lore.assassin_sword": "Corte rápido, é tramontina",
+
+  "trenches.item.name.bomber_axe": "Quebra-Escudos",
+  "trenches.item.lore.bomber_axe1": "Útil para desarmar escudos",
+  "trenches.item.lore.bomber_axe2": "e aplicar efeitos imobilizantes.",
+
+  "trenches.item.name.bomber_skill": "Explosão (Skill)",
+  "trenches.item.lore.bomber_skill": "Botão direito, use para se explodir.",
+
+  "trenches.item.name.fireball": "Bola de Fogo",
+  "trenches.item.lore.fireball": "Cuidado! Ótima em quebrar defesas.",
+
+  "trenches.item.name.explosive_mine": "Mina Terrestre",
+  "trenches.item.lore.explosive_mine": "Plante uma mina no bloco abaixo de você.",
+
+  "trenches.generic.team.name.spec": "§l§7Espectador",
   "trenches.generic.team.name.blu": "§l§1Azul",
   "trenches.generic.team.name.red": "§l§4Vermelho",
   "trenches.generic.item.name.pacific_pickaxe": "Picareta Pacífica",
@@ -68,7 +103,12 @@
   "trenches.announcement.match.start": "Lutem!",
   "trenches.announcement.match.captured_point": "O meio foi dominado pelo time %s",
 
-  "trenches.announcement.match.gamestate.early": "Toquem as trombetas! Novas §6§lclasses§r§7 foram desbloqueadas, é aqui que o jogo inicia de verdade.",
+  "trenches.announcement.match.gamestate.early": "Toquem as trombetas! Novas §6§lclasses§r§7 foram desbloqueadas, o jogo de fato começou agora.",
+
+  "trenches.enchantment.leg_breaker": "Quebra-Pernas",
+  "trenches.enchantment.eye_piercer": "Perfura-Olhos",
+  "trenches.enchantment.weakener": "Fraquejar",
+  "trenches.enchantment.curse.single_use": "Maldição do uso-único",
 
   "trenches.dev.custom_classes_book_name": "Sistema de Classes para Burrinhos",
   "trenches.dev.custom_classes_page1": "Dá pra tornar essa área mais eficiente colocando as ferramentas que se repetem em um único baú...\n\nMas, como essa eficiência não é através de código, tem 0 impacto na perfor-\nmance do jogo.",
