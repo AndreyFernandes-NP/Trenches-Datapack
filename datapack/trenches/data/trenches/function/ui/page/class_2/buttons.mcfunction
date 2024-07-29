@@ -13,9 +13,9 @@ execute unless data storage ui container[{Slot:26b}] run scoreboard players set 
 # basicamente o que isso faz é, se o código não identificar nenhum item no slot específico, então um "botão" foi clicado!
 
 ## Agora é pegar qual página devemos ir
-execute if score .button ui matches 1 as @p run function trenches:classes/can_afford {"target_class":"warrior"}
-execute if score .button ui matches 2 as @p run function trenches:classes/can_afford {"target_class":"builder"}
-execute if score .button ui matches 3 as @p run function trenches:classes/can_afford {"target_class":"shooter"}
+execute if score .button ui matches 1 as @p run function trenches:classes/can_afford {"target_class":"warrior","currency":"pts"}
+execute if score .button ui matches 2 as @p run function trenches:classes/can_afford {"target_class":"builder","currency":"pts"}
+execute if score .button ui matches 3 as @p run function trenches:classes/can_afford {"target_class":"shooter","currency":"pts"}
 execute if score .button ui matches 4 as @p run function trenches:ui/page/class_2/info_1
 execute if score .button ui matches 5 as @p run function trenches:ui/page/class_2/info_2
 execute if score .button ui matches 6 as @p run function trenches:ui/page/class_2/info_3

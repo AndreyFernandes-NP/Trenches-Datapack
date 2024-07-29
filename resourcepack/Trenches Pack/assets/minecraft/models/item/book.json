@@ -4,8 +4,8 @@
 		"layer0": "item/book"
 	},
 	"overrides": [
-		{ "predicate": {  "custom_model_data": 60001 }, "model": "item/warped_f/kp_early_assassin"},
-		{ "predicate": {  "custom_model_data": 60002 }, "model": "item/warped_f/kp_early_bomber"},
-		{ "predicate": {  "custom_model_data": 1 }, "model": "item/skills/explosive_mine"}
+		{ "predicate": {  "custom_model_data": 66001 }, "model": "item/warped_f/kp_early_assassin"},
+		{ "predicate": {  "custom_model_data": 66002 }, "model": "item/warped_f/kp_early_bomber"},
+		{ "predicate": {  "custom_model_data": 66003 }, "model": "item/book_skills/mine"}
 	]
 }

@@ -31,8 +31,8 @@ execute as @a[team=red] unless score @s team_id matches 2 run scoreboard players
 scoreboard players remove @a fireball 1
 
 #> Mina Terrestre
-execute at @e[type=armor_stand, tag=explosive_mine, scores={team_id=1}] as @p[distance=..2,scores={team_id=2}] run function trenches:game/general/mine_explosion
-execute at @e[type=armor_stand, tag=explosive_mine, scores={team_id=2}] as @p[distance=..2,scores={team_id=1}] run function trenches:game/general/mine_explosion
+execute at @e[type=armor_stand, tag=explosive_mine, scores={team_id=1}] as @p[distance=..3,scores={team_id=2}] run function trenches:game/general/mine_explosion
+execute at @e[type=armor_stand, tag=explosive_mine, scores={team_id=2}] as @p[distance=..3,scores={team_id=1}] run function trenches:game/general/mine_explosion
 
 # Evitar de mexer daqui pra baixo
 

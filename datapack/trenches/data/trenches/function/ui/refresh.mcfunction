@@ -12,6 +12,9 @@ execute if score @s ui.page matches 0 run function trenches:ui/page/class_1/star
 execute if score @s ui.page matches 1 run function trenches:ui/page/class_2/start
 # Pra adicionar nova página, copia o comando, coloca "matches n", número da página e muda a função, tipo: trenches:ui/page/novapag/start
 
+#> KP Classes
+execute if score @s ui.page matches 61 run function trenches:ui/page/kp_class_1/start
+
 ## Prevenir check duplo
 data modify storage ui container set from entity @s Items
 

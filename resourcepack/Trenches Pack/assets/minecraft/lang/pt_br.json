@@ -21,8 +21,8 @@
   "trenches.classes.name.builder": "Construtor",
   "trenches.classes.name.shooter": "Franco-Atirador",
 
-  "trenches.classes.kp.name.bomber": "Suicida",
   "trenches.classes.kp.name.assassin": "Assassino",
+  "trenches.classes.kp.name.bomber": "Suicida",
 
   "trenches.classes.lore.soldier.line1": "Custo: [%s]",
   "trenches.classes.lore.soldier.line2": "",
@@ -33,26 +33,26 @@
   "trenches.classes.lore.scout.line2": "",
   "trenches.classes.lore.scout.line3": "Um ótimo apoio, mas bem limitado.",
 
-  "trenches.classes.lore.warrior.line1": "§l§fCusto: [%s]",
+  "trenches.classes.lore.warrior.line1": "Custo: [%s]",
   "trenches.classes.lore.warrior.line2": "",
   "trenches.classes.lore.warrior.line3": "Uma ofensiva bem dominante,",
   "trenches.classes.lore.warrior.line4": "mas vulnerável à longas-distâncias",
 
-  "trenches.classes.lore.builder.line1": "§l§fCusto: [%s]",
+  "trenches.classes.lore.builder.line1": "Custo: [%s]",
   "trenches.classes.lore.builder.line2": "",
   "trenches.classes.lore.builder.line3": "Bom para defender bases, ou quebrá-las",
 
-  "trenches.classes.lore.shooter.line1": "§l§fCusto: [%s]",
+  "trenches.classes.lore.shooter.line1": "Custo: [%s]",
   "trenches.classes.lore.shooter.line2": "",
   "trenches.classes.lore.shooter.line3": "Tendo uma ótima mira,",
   "trenches.classes.lore.shooter.line4": "essa classe é quase imparável",
 
-  "trenches.classes.kp.lore.assassin.line1": "§l§fCusto: §l§4[%s]",
+  "trenches.classes.kp.lore.assassin.line1": "Custo: [%s KP]",
   "trenches.classes.kp.lore.assassin.line2": "",
   "trenches.classes.kp.lore.assassin.line3": "Rápido e mortal,",
-  "trenches.classes.kp.lore.assassin.line4": "mas com uma péssima defesa",
+  "trenches.classes.kp.lore.assassin.line4": "mas com pouca vida",
 
-  "trenches.classes.kp.lore.bomber.line1": "§l§fCusto: §l§4[%s]",
+  "trenches.classes.kp.lore.bomber.line1": "Custo: [%s KP]",
   "trenches.classes.kp.lore.bomber.line2": "",
   "trenches.classes.kp.lore.bomber.line3": "Kaboom~",
 
@@ -98,6 +98,7 @@
   "trenches.generic.item.lore.pacific": "Não causa dano.",
 
   "trenches.generic.chat_messages.insufficient_points": "Você não tem pontos o suficiente para comprar §l[%s§l]",
+  "trenches.generic.chat_messages.cant_place_mine": "É preciso estar em cima de um bloco para plantar uma mina!",
   "trenches.generic.chat_messages.not_ready": "§lNão foi possível iniciar o jogo pois §6§ltodos§r§l os jogadores precisam estar em um time!",
 
   "trenches.announcement.match.start": "Lutem!",

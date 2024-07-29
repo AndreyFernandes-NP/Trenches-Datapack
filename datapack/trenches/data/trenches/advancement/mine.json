@@ -28,6 +28,6 @@
     }
   },
   "rewards": {
-    "function": "trenches:skills/mine_summon"
+    "function": "trenches:skills/mine_air"
   }
 }
