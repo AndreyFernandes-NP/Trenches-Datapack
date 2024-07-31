@@ -13,3 +13,7 @@ execute store result score #temp ui run data modify entity @s data.container set
 ## Se deu certo, vai dar refresh e mostrar os novos itens
 execute if score #temp ui matches 1 as @e[type=chest_minecart] if score @s ui.id = .in ui.id run function trenches:ui/refresh
 data modify entity @s data.container set from storage ui container
+
+## Limpar o ID armazenado
+#Só pra garantir de limpar o ID quando encerrar tudo o que a função precisa fazer
+scoreboard players set .in ui.id 0

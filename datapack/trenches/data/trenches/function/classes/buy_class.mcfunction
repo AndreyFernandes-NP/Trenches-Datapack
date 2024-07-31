@@ -1,6 +1,8 @@
 $execute as @s run scoreboard players operation @s $(currency) -= .$(target_class) cl_gen_price
-$execute at @s as @n[type=minecraft:armor_stand,tag=$(target_class)_armor,tag=$(plr_team)] run function trenches:classes/give_armor
-# Isso faz a busca pela armor_stand com as tags da classe em questão pra dar a armadura dela, o código é executado dentro do player com o dono sendo a armor_stand
-$execute as @s run function trenches:classes/get_id {"target_class":"$(target_class)"}
-$execute as @s at @n[type=minecraft:armor_stand,tag=$(target_class)_items,tag=$(plr_team)] run loot give @s mine ~ ~ ~ stick[minecraft:custom_data={drop_contents:1b}]
-# O /loot aqui vai simplesmente "mineirar" a shulker com os itens específicos e dropar apenas os itens diretamente no inventário do player
+
+$function trenches:classes/give_armor with storage class_armor $(target_class).$(plr_team)
+# Essa função envia o uuid de uma entidade armazenado num data storage, tendo assim muito mais performance pra repassar as armaduras
+$function trenches:classes/give_items with storage class_items $(target_class).$(plr_team)
+# A função recebe um parâmetro que é a localização da shulker_box contendo os itens, a localização é armazenada num storage, obtendo mais performance
+$function trenches:classes/get_id {"target_class":"$(target_class)"}
+# Uma função para coletar o ID único do player e executar uma série de funções que então dará os efeitos da classe ao player

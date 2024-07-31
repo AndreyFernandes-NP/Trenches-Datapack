@@ -15,11 +15,18 @@ execute if score @s ui.page matches 1 run function trenches:ui/page/class_2/star
 #> KP Classes
 execute if score @s ui.page matches 61 run function trenches:ui/page/kp_class_1/start
 
+#> Custom Classes
+execute if score @s ui.page matches 1001 run function trenches:ui/page/custom_class_1/start
+# To create a new page, just copy the above command, change the "matches x" to the page id you want, and change the function to be like trenches:ui/page/your_page_name/start
+
 ## Prevenir check duplo
 data modify storage ui container set from entity @s Items
 
 ## Remover o usuário dominante
 tag @a remove this
 
-## Clear em qualquer item dropado da ui
+## Limpar o ID armazenado
+scoreboard players set .in ui.id 0
+
+## Clear em qualquer item dropado/pego da ui
 scoreboard players set .kill ui 1

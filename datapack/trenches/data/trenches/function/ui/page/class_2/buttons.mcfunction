@@ -13,12 +13,12 @@ execute unless data storage ui container[{Slot:26b}] run scoreboard players set 
 # basicamente o que isso faz é, se o código não identificar nenhum item no slot específico, então um "botão" foi clicado!
 
 ## Agora é pegar qual página devemos ir
-execute if score .button ui matches 1 as @p run function trenches:classes/can_afford {"target_class":"warrior","currency":"pts"}
-execute if score .button ui matches 2 as @p run function trenches:classes/can_afford {"target_class":"builder","currency":"pts"}
-execute if score .button ui matches 3 as @p run function trenches:classes/can_afford {"target_class":"shooter","currency":"pts"}
-execute if score .button ui matches 4 as @p run function trenches:ui/page/class_2/info_1
-execute if score .button ui matches 5 as @p run function trenches:ui/page/class_2/info_2
-execute if score .button ui matches 6 as @p run function trenches:ui/page/class_2/info_3
+execute if score .button ui matches 1 as @a[scores={ui.id=1..}] if score @s ui.id = .in ui.id run function trenches:classes/can_afford {"target_class":"warrior","currency":"pts"}
+execute if score .button ui matches 2 as @a[scores={ui.id=1..}] if score @s ui.id = .in ui.id run function trenches:classes/can_afford {"target_class":"builder","currency":"pts"}
+execute if score .button ui matches 3 as @a[scores={ui.id=1..}] if score @s ui.id = .in ui.id run function trenches:classes/can_afford {"target_class":"shooter","currency":"pts"}
+execute if score .button ui matches 4 as @a[scores={ui.id=1..}] if score @s ui.id = .in ui.id run function trenches:ui/page/class_2/info_1
+execute if score .button ui matches 5 as @a[scores={ui.id=1..}] if score @s ui.id = .in ui.id run function trenches:ui/page/class_2/info_2
+execute if score .button ui matches 6 as @a[scores={ui.id=1..}] if score @s ui.id = .in ui.id run function trenches:ui/page/class_2/info_3
 execute if score .button ui matches 7 run function trenches:ui/page/class_2/back_button
 execute if score .button ui matches 8 run function trenches:ui/page/class_2/next_button
 # Aqui ele se joga numa função pra executar umas coisas e então puxar o player pra próxima página se ela tiver liberada
