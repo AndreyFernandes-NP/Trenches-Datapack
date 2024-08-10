@@ -59,16 +59,8 @@ execute at @e[type=armor_stand, tag=explosive_mine, scores={team_id=1}] as @p[di
 execute at @e[type=armor_stand, tag=explosive_mine, scores={team_id=2}] as @p[distance=..3,scores={team_id=1}] run function trenches:game/general/mine_explosion
 
 #> Hub Pré-Jogo
-execute positioned 238 -35 66 as @a[tag=!ingame,distance=12..] run tp @s 238 -36 73
-execute as @a[tag=!ingame] run effect give @s resistance infinite 4 true
-
-execute as @a[tag=!ingame] run scoreboard players enable @s join_Blu
-execute as @a[tag=!ingame] run scoreboard players enable @s join_Red
-execute as @a[tag=!ingame] run scoreboard players enable @s join_Spec
-
-execute as @a[scores={join_blu=1..},tag=!ingame] run function trenches:game/general/join_team {"team":"blu"}
-execute as @a[scores={join_red=1..},tag=!ingame] run function trenches:game/general/join_team {"team":"red"}
-execute as @a[scores={join_spec=1..},tag=!ingame] run function trenches:game/general/join_team {"team":"spec"}
+execute positioned 238 -35 66 as @a[tag=!ingame,distance=12..] run tp @s 238 -35 73
+execute as @a[tag=!ingame] run function trenches:game/state/hub_commands
 
 # Evitar de mexer daqui pra baixo
 
