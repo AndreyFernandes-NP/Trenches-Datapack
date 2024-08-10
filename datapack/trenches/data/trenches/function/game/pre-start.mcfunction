@@ -1,2 +1,0 @@
-execute unless entity @a[team=] run function trenches:game/start
-execute if entity @a[team=] run tellraw @a [{"text":"[Trenches]","color":"green"},{"text":": ","color":"gray"},{"translate":"trenches.generic.chat_messages.not_ready","color":"white"}]
