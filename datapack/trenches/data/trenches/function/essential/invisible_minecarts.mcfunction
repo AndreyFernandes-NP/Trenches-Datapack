@@ -1,4 +1,4 @@
-## Código base de CloudWolf: https://www.youtube.com/watch?v=z4tvTrqhBZE
+## Código base de CloudWolf: https://www.youtube.com/watch?v=Sxnaah2SPzw
 ## from misode's at: https://gist.github.com/misode/57dca050fbe2a0a8232c0c3fbab04e35
 
 data merge entity @s[type=minecart] {CustomDisplayTile:1,DisplayState:{Name:"minecraft:command_block",Properties:{conditional:"true",facing:"down"}},DisplayOffset:4}

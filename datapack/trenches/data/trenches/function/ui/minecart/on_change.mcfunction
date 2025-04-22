@@ -16,3 +16,6 @@ execute if data storage ui in[0] unless data storage ui in[1] run return run fun
 
 # Update Page & History if nothing happened
 function trenches:ui/menu/refresh
+
+# Delete any dropped items if not cmd
+kill @e[type=item,nbt={Item:{components:{"minecraft:custom_data":{ui_item:{}}}}}]

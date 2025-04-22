@@ -1,0 +1,33 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "translate": "trenches.classes.kp.lore.kendo.line1",
+        "with": [
+          {
+            "score": {
+              "name": ".kendo",
+              "objective": "cl_gen_price"
+            }
+          }
+        ],
+        "color": "dark_red",
+        "bold": true,
+        "italic": false,
+        "underlined": true
+      },
+      {
+        "translate": "trenches.classes.kp.lore.kendo.line2"
+      },
+      {
+        "translate": "trenches.classes.kp.lore.kendo.line3"
+      },
+      {
+        "translate": "trenches.classes.kp.lore.kendo.line4"
+      }
+    ],
+    "mode": "replace_all"
+  }
+]
