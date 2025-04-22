@@ -15,6 +15,8 @@
 		{ "predicate": {  "custom_model_data": 13 }, "model": "item/warped_f/basic_builder"},
 		{ "predicate": {  "custom_model_data": 14 }, "model": "item/warped_f/basic_shooter"},
 		{ "predicate": {  "custom_model_data": 60001 }, "model": "item/warped_f/kp_early_assassin"},
-		{ "predicate": {  "custom_model_data": 60002 }, "model": "item/warped_f/kp_early_bomber"}
+		{ "predicate": {  "custom_model_data": 60002 }, "model": "item/warped_f/kp_early_bomber"},
+		{ "predicate": {  "custom_model_data": 60003 }, "model": "item/warped_f/kp_mid_flash"},
+		{ "predicate": {  "custom_model_data": 60004 }, "model": "item/warped_f/kp_mid_kendo"}
 	]
 }

@@ -1,1 +1,0 @@
-execute if block 459 3 66 red_wool run return 1

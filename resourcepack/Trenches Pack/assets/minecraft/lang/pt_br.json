@@ -21,8 +21,16 @@
   "trenches.classes.name.builder": "Construtor",
   "trenches.classes.name.shooter": "Franco-Atirador",
 
+  "trenches.classes.name.hero": "Herói",
+  "trenches.classes.name.viking": "Viking",
+  "trenches.classes.name.gunner": "Artilheiro",
+  "trenches.classes.name.engineer": "Engenheiro",
+
   "trenches.classes.kp.name.assassin": "Assassino",
   "trenches.classes.kp.name.bomber": "Suicida",
+
+  "trenches.classes.kp.name.flash": "Velocista",
+  "trenches.classes.kp.name.kendo": "Kendô",
 
   "trenches.classes.lore.soldier.line1": "Custo: [%s]",
   "trenches.classes.lore.soldier.line2": "",
@@ -47,6 +55,11 @@
   "trenches.classes.lore.shooter.line3": "Tendo uma ótima mira,",
   "trenches.classes.lore.shooter.line4": "essa classe é quase imparável",
 
+  "trenches.classes.lore.hero.line1": "Custo: [%s]",
+  "trenches.classes.lore.hero.line2": "",
+  "trenches.classes.lore.hero.line3": "Feito para um combate rápido e",
+  "trenches.classes.lore.hero.line4": "dinâmico.",
+
   "trenches.classes.kp.lore.assassin.line1": "Custo: [%s KP]",
   "trenches.classes.kp.lore.assassin.line2": "",
   "trenches.classes.kp.lore.assassin.line3": "Rápido e mortal,",
@@ -55,6 +68,15 @@
   "trenches.classes.kp.lore.bomber.line1": "Custo: [%s KP]",
   "trenches.classes.kp.lore.bomber.line2": "",
   "trenches.classes.kp.lore.bomber.line3": "Kaboom~",
+
+  "trenches.classes.kp.lore.flash.line1": "Custo: [%s KP]",
+  "trenches.classes.kp.lore.flash.line2": "",
+  "trenches.classes.kp.lore.flash.line3": "A. Velocidade.",
+
+  "trenches.classes.kp.lore.kendo.line1": "Custo: [%s KP]",
+  "trenches.classes.kp.lore.kendo.line2": "",
+  "trenches.classes.kp.lore.kendo.line3": "Obediência e foco,",
+  "trenches.classes.kp.lore.kendo.line4": "determinismo é sua força",
 
   "trenches.classes.description.soldier": "É uma classe bem simples de combate, a mais barata dentre todas e que serve seu propósito de ser um simples soldado. Feito para uma ofensiva rápida e direta, sem precisar gastar muito.",
   "trenches.classes.description.scout": "Feita tanto para o combate, quanto para o suporte, esse classe possui um potencial bem grande em comparação ao %s. Dependendo da sua mira, você pode abrir uma grande vantagem pro seu time, ou morrer e se arrepender de ter gastando mais caro.",
@@ -65,6 +87,9 @@
 
   "trenches.classes.kp.description.assassin": "Bastante ágil e poderoso, ele possui a capacidade de se teleportar com suas pérolas para ser o flanco de seu time, mas saiba que sua vida é bem menor em relação as outras classes.",
   "trenches.classes.kp.description.bomber": "Ótimo para alvos únicos, ou para criar uma abertura na defesa inimiga. Você só tem uma chance.",
+
+  "trenches.classes.kp.description.flash": "Eu sou um artista único. Poucos notam a beleza que há na dinâmica dos corpos. Velocidade e aceleração, são os pincéis de meu trabalho. E o Canvas, são as vítimas de minha Sai quando está em movimento uniforme, prestes a lhes dar um golpe §l§4fatal.",
+  "trenches.classes.kp.description.kendo": "Minha disciplina permite atingir inimigos em locais que eles menos esperam. Meus golpes podem não ser os mais poderosos, porém são capazes de incapacitar até os mais fortes guerreiros. Em lutas de um contra um, o vento sopra ao meu favor.",
 
   "trenches.item.lore.soldier_sword": "Uma espada de pedra...",
   "trenches.item.lore.scout_bow": "Um arco mais pesado que o usual",
@@ -83,15 +108,24 @@
   "trenches.item.name.bomber_skill": "Explosão (Skill)",
   "trenches.item.lore.bomber_skill": "Botão direito, use para se explodir.",
 
+  "trenches.item.name.flash_sword": "Velosai",
+  "trenches.item.lore.flash_sword": "Nem irão perceber quem os atingiu.",
+
+  "trenches.item.name.flash_skill": "A Velocidade (Skill)",
+  "trenches.item.lore.flash_skill": "Una-se à velocidade do som.",
+
+  "trenches.item.name.kendo_sword": "Bastão Disciplinador",
+  "trenches.item.lore.kendo_sword": "Um guerreiro indisciplinado, é igual a uma criança com uma espada.",
+
   "trenches.item.name.fireball": "Bola de Fogo",
   "trenches.item.lore.fireball": "Cuidado! Ótima em quebrar defesas.",
 
   "trenches.item.name.explosive_mine": "Mina Terrestre",
   "trenches.item.lore.explosive_mine": "Plante uma mina no bloco abaixo de você.",
 
-  "trenches.generic.team.name.spec": "§7Espectador",
-  "trenches.generic.team.name.blu": "§1Azul",
-  "trenches.generic.team.name.red": "§4Vermelho",
+  "trenches.generic.team.name.spec": "§7§lEspectador",
+  "trenches.generic.team.name.blu": "§1§lAzul",
+  "trenches.generic.team.name.red": "§4§lVermelho",
   "trenches.generic.item.name.pacific_pickaxe": "Picareta Pacífica",
   "trenches.generic.item.name.pacific_axe": "Machado Pacífico",
   "trenches.generic.item.name.pacific_shovel": "Pá Pacífica",
@@ -109,14 +143,17 @@
   "trenches.announcement.match.victory": "Vitória!",
   "trenches.announcement.match.defeat": "Derrota",
 
+  "trenches.announcement.match.first_blood_global": "§4§lFirst Blood §r§7do time %s por %s!",
+  "trenches.announcement.match.first_blood_private": "Você recebeu §6§l50 §r§7pontos por ter pego o §4First Blood",
   "trenches.announcement.match.captured_point": "O meio foi dominado pelo time %s",
-  "trenches.announcement.match.point_wool": "Você recebeu §625 §r§7pontos por ter pego a lã do meio!",
+  "trenches.announcement.match.point_wool": "Você recebeu §6§l25 §r§7pontos por ter pego a lã do meio!",
 
   "trenches.announcement.match.captured_base": "O renascimento do time inimigo foi bloqueado!",
   "trenches.announcement.match.base_captured": "O time inimigo bloqueou seu renascimento!!",
   "trenches.announcement.match.spectator_base": "O time %s bloqueou o renascimento do time %s",
 
-  "trenches.announcement.match.gamestate.early": "Toquem as trombetas! Novas §6§lclasses§r§7 foram desbloqueadas, o jogo de fato começou agora.",
+  "trenches.announcement.match.gamestate.early": "Toquem as trombetas! Novas §6§lclasses§r§7 foram desbloqueadas, efeitos de biomas e bases também foram ativados.",
+  "trenches.announcement.match.gamestate.mid": "Toquem as trombetas novamente! Novas §6§lclasses§r§7 foram desbloqueadas, o circo começa a pegar fogo...",
 
   "trenches.enchantment.leg_breaker": "Quebra-Pernas",
   "trenches.enchantment.eye_piercer": "Perfura-Olhos",

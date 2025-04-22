@@ -1,0 +1,13 @@
+{
+    "music.flash.speed_skill": {
+        "sounds": [
+            "trenches:music/phonk/flash_skill"
+        ]
+    },
+
+    "music.empty": {
+        "sounds": [
+            "trenches:music/empty"
+        ]
+    }
+}

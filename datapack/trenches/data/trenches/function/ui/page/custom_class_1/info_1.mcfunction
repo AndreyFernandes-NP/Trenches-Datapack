@@ -8,6 +8,6 @@ execute at @s run playsound minecraft:entity.experience_orb.pickup master @p ~ ~
 # An audio effect to just play for feedback
 
 scoreboard players set @s ui.delay 1
-execute at @s run schedule function trenches:ui/delay 2t
+schedule function trenches:ui/delay 2t replace
 clear @s
 # Do not touch these 3 commands above

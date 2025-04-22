@@ -1,1 +1,0 @@
-$effect give @s $(effect_name) $(effect_duration) $(effect_amplifier) true

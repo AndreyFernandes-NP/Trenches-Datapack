@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/handheld",
+  "texture_size": [48, 48],
+  "textures": {
+    "layer0": "minecraft:item/velosai"
+  }
+}

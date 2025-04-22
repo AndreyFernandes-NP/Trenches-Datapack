@@ -1,1 +1,0 @@
-execute if block -58 3 66 blue_wool run return 1
