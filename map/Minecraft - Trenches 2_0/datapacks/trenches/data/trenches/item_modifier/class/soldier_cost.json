@@ -1,0 +1,33 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "translate": "trenches.classes.lore.soldier.line1",
+        "with": [
+          {
+            "score": {
+              "name": ".soldier",
+              "objective": "cl_gen_price"
+            }
+          }
+        ],
+        "color": "white",
+        "bold": true,
+        "italic": false,
+        "underlined": true
+      },
+      {
+        "translate": "trenches.classes.lore.soldier.line2"
+      },
+      {
+        "translate": "trenches.classes.lore.soldier.line3"
+      },
+      {
+        "translate": "trenches.classes.lore.soldier.line4"
+      }
+    ],
+    "mode": "replace_all"
+  }
+]

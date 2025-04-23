@@ -1,0 +1,2 @@
+execute if entity @s[team=red] unless score #red_Base value matches 1.. run function trenches:game/general/respawn_player {"plr_team":"red","respawn_type":0}
+execute if entity @s[team=blu] unless score #blu_Base value matches 1.. run function trenches:game/general/respawn_player {"plr_team":"blu","respawn_type":0}

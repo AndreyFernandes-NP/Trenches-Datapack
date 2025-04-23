@@ -1,0 +1,30 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "translate": "trenches.classes.kp.lore.flash.line1",
+        "with": [
+          {
+            "score": {
+              "name": ".flash",
+              "objective": "cl_gen_price"
+            }
+          }
+        ],
+        "color": "dark_red",
+        "bold": true,
+        "italic": false,
+        "underlined": true
+      },
+      {
+        "translate": "trenches.classes.kp.lore.flash.line2"
+      },
+      {
+        "translate": "trenches.classes.kp.lore.flash.line3"
+      }
+    ],
+    "mode": "replace_all"
+  }
+]
